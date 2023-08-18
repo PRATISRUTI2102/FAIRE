@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAIRE</title>
+
+    <link rel="stylesheet" href="main.css" />
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1 style="background-color:rgb(255, 255, 255);">TO-DO LIST:-</h1>
+        <form id="new-task-form">
+            <input
+                  type="text"
+                  id="new-task-input"
+                  placeholder="ADD-NEW-TASK" />
+                  <input
+                         type="submit"
+                         id="new-task-submit"
+                         value="ADD TASK" />
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2 style="background-color: rgb(255, 255, 255);">PREVIOUSLY ADDED TASKS: </h2>
+            <div id="tasks">
+                <!--<div class="task">
+                    <div class="content">
+                        <input
+                            type="text"
+                            class="text"
+                            value="MY FIRST TASK"
+                            readonly
+                            />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">TAP-TO-EDIT</button>
+                        <button class="delete">TAP-TO-DELETE</button>
+                    </div>
+                </div>-->
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
